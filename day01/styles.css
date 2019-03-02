@@ -1,5 +1,4 @@
-/****** General Styles *********/
-
+/* General Styles */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -8,13 +7,31 @@
 
 html {
   font-size: 62.5%;
+  background-color: #f8f8f8;
 }
 
 body {
   font-family: 'Montserrat';
+  max-width: 500px;
+  margin: auto;
 }
 
+/* Navigation Styles */
+.navbar {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
 
+.navbar a {
+  text-decoration: none;
+  color: #777;
+}
+
+.navbar a:hover {
+  color: #29bb9c
+}
 
 
 
