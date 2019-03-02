@@ -1,3 +1,5 @@
+/****** General Styles *********/
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -5,14 +7,20 @@
 }
 
 html {
-  display: block;
+  font-size: 62.5%;
 }
 
-html, body {
-  height: 100%;
-  width: 100%;
+body {
+  font-family: 'Montserrat';
 }
 
+
+
+
+
+
+
+/*
 body {
   font-size: 12px;
   font-family: sans-serif;
@@ -37,4 +45,4 @@ body {
 
 footer {
   background: gray;
-}
+} */
